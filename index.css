@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.img1{
+    height: 100px;
+    width: 220px;
+    margin-left: 8em;
+    margin-top:-10px;
+    filter: brightness(100%);
+    
+  }
+
+  
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'poppins',sans-serif;
+    background-color: black;
+    color: white;
+   
+    
+   }
+
+.case{
+  position: relative ;
+  background-image: url(https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  filter: brightness(35%);
+  }
+  
+.signin{
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 7px 19px;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: .80;
+  font-size: 17px;
+  
+}
+
+.case-top {
+  position: relative;
+  z-index: 2;
+  height: 90px;
+}
+.case-top button{
+  position: absolute;
+  top: 20%;
+  right: 0;
+  margin-right: -40px;
+}
+
+.case-top select{
+  position: absolute;
+  top: 20%;
+  cursor: pointer;
+  padding: 7px 38px;
+  right: 4%;
+  opacity: 0.7;
+  background-color: black;
+  color: azure;
+ }
+
+ .case-content{
+  margin-top: 200px;
+  margin-left:460px;
+  font-weight: bold;
+  color: white;
+ }
+  
+ .box{
+  height: 4em;
+  width: 400px;
+  background-color: rgba(29, 28, 28, 0.622);
+  margin-top: 10px;
+  color: white;
+  border-radius: 4px;
+  border: 0.50px solid rgb(116, 113, 113);
+
+}
+
+ .case-content ::placeholder{
+  font-size: 16px;
+  color: rgb(190, 204, 216);
+ }
+
+ .btn2{
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: 18px 30px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 9px;
+  margin-left: 5px;
+   
+}
+
+ .btn2:hover{
+  opacity: .80;
+  
+ }
+
+ .signin:hover{
+  opacity: .70;
+  
+ }
+
+.content-case{
+
+position: absolute;
+top: 0;
+
+}
+
+ .option{
+  color: white;
+ }
+
+
+
+.ENTRY{
+  height: 80%;
+ margin-bottom: 130PX;
+}
+
+section div .row{
+    
+  margin-top: 10em;
+  }
+  
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: 'poppins',sans-serif;
+  
+ /*background-image: url(https://blog.aweber.com/wp-content/uploads/2021/09/falling-leaf-featured.gif);
+  background-repeat: no-repeat;
+  background-position: 750px;
+  background-size: 800px;*/
+}
+
+.footer, .footer a{
+  color: #999;
+  font-size: 17px;
+  background-color: rgb(0, 0, 0);
+
+}
+.footer{
+  margin-top: -20px;
+  height: 105vh;
+}
+.footer-col ul li a :hover{
+  color: grey;
+}
+.footer-col{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 70px;
+ 
+}
+
+.footer-col ul li, a{
+  list-style-type: none;
+  margin: 9px;
+}
+
+.email{
+  margin-left: 100px;
+}
+ 
+.footer,.footer a:hover{
+color: gainsboro;
+}
+
+
+
+
+ .ques button {
+    /* position: absolute; */
+    display: flex;
+    margin-left: 8%;
+    height: 88px;
+    width: 75%;
+    margin-bottom: 2px;
+    background-color: rgb(53, 54, 59);
+    font-size: 30px;
+    text-align: left;
+    align-items: center;
+    padding-left: 20px;
+    color: beige;
+    margin-top: 13px;
+}
+
+span{
+  position: absolute;
+  left: 80%;
+}
+div .ques{
+  margin-top: -90px;
+}
+
+button:hover{
+  opacity: .70;
+ background-color: rgb(50, 50, 69);
+}
+
